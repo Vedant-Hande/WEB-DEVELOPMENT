@@ -13,30 +13,32 @@
 
 .box1 {
   background-color: aqua;
+
   /* position: sticky;
-    top:0px;
-    height: 111px;
-    width:100%;
-    margin: 0;
-    padding: 0; */
-  position: absolute;
   top: 0px;
-  left: 3px;
+  height: 111px;
+  width: 100%;
+  margin: 3px;
+  padding: 3px; */
+  position: absolute;
+  top: 5px;
+  left: 5px;
 }
 
 .box2 {
   background-color: azure;
-  /* position: relative;
-    top: 34px;
-    left: 56px; */
+  position: relative;
+  bottom: 34px;
+  left: 65px;
 }
 
 .box3 {
   background-color: antiquewhite;
-  /* position: fixed;
-    bottom: 0px;
-    left:8vw;
-    height: 111px; */
+  position: fixed;
+  bottom: 0px;
+  left: 700px;
+  height: 111px;
+  width: 500px;
 }
 
 .box4 {
@@ -47,7 +49,7 @@
   padding: 43px;
   margin: 34px;
   border: 3px solid purple;
-  /* position: relative; */
+  position: relative;
 
   /* Exception: transform, filter, or perspective properties can also make an element appear as positioned */
   /* transform: translate(0); */
