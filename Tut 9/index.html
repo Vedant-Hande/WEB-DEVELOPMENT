@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Overflow proprty in CSS</title>
+    <style>
+      * {
+        /* margin: 34px; */
+        background: mediumslateblue;
+        color: rgb(150, 24, 48);
+      }
+      .box1 {
+        width: 20vw;
+        height: 20vh;
+        border: 2px solid black;
+        overflow: hidden;
+        /* overflow hidden  */
+      }
+      .box2 {
+        width: 20vw;
+        height: 20vh;
+        border: 2px solid black;
+        overflow: auto;
+        /* overflow auto */
+      }
+      .box3 {
+        width: 20vw;
+        height: 20vh;
+        border: 2px solid black;
+        overflow: hidden;
+        text-overflow: clip;
+        /* overflow clip  */
+      }
+      #box4 {
+        width: 20vw;
+        height: 20vh;
+        border: 2px solid black;
+        overflow: hidden;
+        overflow-y: scroll;
+        overflow-x: hidden;
+        /* overflow hidden  */
+      }
+      #box5 {
+        width: 20vw;
+        height: 20vh;
+        border: 2px solid black;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        /* overflow hidden  */
+      }
+      .space {
+        margin: 35px;
+        text-align: center;
+        /* background-color: black; */
+        /* padding/ 5px; */
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box1 space">
+      Lorem ipsum do1lor sit amet consectetur adipisicing elit. Delectus
+      voluptatum cumque officiis labore, nulla laboriosam cupiditate vero
+      quisquam iusto at id ut, debitis earum perferendis repellat dolor error
+      architecto officia nam! Atque, nulla quod distinctio facere dolorum dolor
+      a odit repellat iste nihil ab incidunt.
+    </div>
+    <div class="box2 space">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus
+      voluptatum cumque officiis labore, nulla laboriosam cupiditate vero
+      quisquam iusto at id ut, debitis earum perferendis repellat dolor error
+      architecto officia nam! Atque, nulla quod distinctio facere dolorum dolor
+      a odit repellat iste nihil ab incidunt.
+    </div>
+    <div class="box3 space">
+      Lorem ipsum dolo Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+      Laborum non praesentium distinctio, voluptatum consectetur deleniti
+      dolorum facere quas ad? Nisi sunt velit molestiae dolores quod dolorem
+      tenetur, maiores non placeat.r sit amet consectetur adipisicing elit.
+      Delectus voluptatum cumque officiis labore, nulla laboriosam cupiditate
+      vero quisquam iusto at id ut, debitis earum perferendis repellat dolor
+      error architecto officia nam! Atque, nulla quod distinctio facere dolorum
+      dolor a odit repellat iste nihil ab incidunt.
+    </div>
+    <div id="box4" class="space">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus
+      voluptatum cumque officiis labore, nulla laboriosam cupiditate vero
+      quisquam iusto at id ut, debitis earum perferendis repellat dolor error
+      architecto officia nam! Atque, nulla quod distinctio facere dolorum dolor
+      a odit repellat iste nihil ab incidunt.
+    </div>
+    <div id="box5" calss=" space">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus
+      voluptatum cumque officiis labore, nulla laboriosam cupiditate vero
+      quisquam iusto at id ut, debitis earum perferendis repellat dolor error
+      architecto officia nam! Atque, nulla quod distinctio facere dolorum dolor
+      a odit repellat iste nihil ab incidunt.
+    </div>
+  </body>
+</html>
