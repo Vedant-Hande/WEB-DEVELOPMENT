@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Question 1</title>
+    <style>
+      .container > p:nth-child(2) {
+        color: red;
+      }
+
+      /*  if  we wants to  access the  <p> of (2)  but it within the any tag of html like <div> <span>  but we want to acces the <p> it is only within the continer not in any tag within the contianer  then we use (>) this { if it is child of <container> } ...  and if we don't use (>) this than we can able to access the any <P> within the container if it is exits in the anywherer in container { if it is not a child of the container it is exits anywhere within the container} .. */
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <p class="text">First paragraph</p>
+      <p class="text highlight">Second paragraph</p>
+      <p class="text">Third paragraph</p>
+    </div>
+  </body>
+</html>
