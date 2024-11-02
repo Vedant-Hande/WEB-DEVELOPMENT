@@ -27,7 +27,7 @@ This journey will cover a variety of tools and technologies, including:
 
 ## Projects
 Here’s a list of projects I’ll be building as I progress:
--  Upcoming:
+- Project Upcoming:   
 
 ## Resources
 I’m using a range of resources to support my learning:
