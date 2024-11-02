@@ -16,8 +16,6 @@ I’m currently diving into the world of web development, starting from HTML and
 ## Daily Progress
 | Source Code Updated Day to Day |  
 
-I’ll continue updating this table with each day’s learning highlights. 
-
 ## Technologies
 This journey will cover a variety of tools and technologies, including:
 - **Front-End**: HTML, CSS, JavaScript, responsive design
