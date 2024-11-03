@@ -1,11 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Question 1 - ANS</title>
-</head>
-<body>
-    
-</body>
+    <style>
+      p {
+        background-color: yellow;
+      }
+
+      .text {
+        background-color: blue;
+      }
+
+      .highlight {
+        background-color: green;
+      }
+
+      div.container p.highlight {
+        background-color: orange !important;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- Question:
+        You are given the following HTML and CSS code snippets. Based on the CSS rules provided, determine the background color of the <p> element inside the <div class="container"> element. Explain why that color is applied. -->
+
+    <div class="container">
+      <p class="text highlight">Hello, CSS!</p>
+    </div>
+    <!-- Task:
+        Determine the final background color of the <p> element with class text highlight. -->
+  </body>
 </html>
+<!-- ANS - IF we consider important then color is orange & if we consider only the classes then color is green; -->
