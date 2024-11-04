@@ -14,7 +14,7 @@ Welcome to my Web Development Journey! This repository documents my daily progre
 I’m currently diving into the world of web development, starting from HTML and CSS, and aiming to build a solid understanding of JavaScript, frameworks, APIs, and databases. This repository will act as a log of my daily learning activities, coding challenges, and project updates.
 
 ## Daily Progress
-| Source Code Updated Day to Day |  
+| Source Code Update...Day by Day |  
 
 ## Technologies
 This journey will cover a variety of tools and technologies, including:
