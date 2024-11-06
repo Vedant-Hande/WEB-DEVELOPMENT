@@ -3,7 +3,7 @@
     padding: 0;
   }
   .box {
-    border: 3px solid brown;
+    border: 3px solid blue;
     display: inline-block; /* if we applay inline than p: and m: will be apply on 3 side not on the top of the side */
     padding: 55px;
     margin: 35px;
