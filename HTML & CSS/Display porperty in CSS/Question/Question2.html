@@ -5,21 +5,50 @@ Build a Simple Grid Layout with display: grid
 Create a container div and add six child divs inside it.
 Use display: grid on the container and set it to have three columns.
 Adjust the column and row gaps, and experiment with properties like grid-template-columns to control the layout. -->
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Question 2</title>
+    <title>Grid Layout</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+
+      /* Grid container styling */
+      .grid-container {
+        display: grid;
+        grid-template-columns: repeat(
+          3,
+          1fr
+        ); /* Creates three equal-width columns */
+        gap: 1em; /* Adjusts spacing between grid items */
+        padding: 25px;
+        /* border: 2px sloid blue; */
+      }
+
+      /* Individual grid items styling */
+      .grid-item {
+        background-color: #333;
+        color: beige;
+        padding: 10px;
+        text-align: center;
+        border-radius: 25px;
+        font-size: 1.7em;
+      }
+    </style>
   </head>
   <body>
-    <div class="container">
-      <div class="">1</div>
-      <div class="">2</div>
-      <div class="">3</div>
-      <div class="">4</div>
-      <div class="">5</div>
-      <div class="">6</div>
+    <div class="grid-container">
+      <div class="grid-item">1</div>
+      <div class="grid-item">2</div>
+      <div class="grid-item">3</div>
+      <div class="grid-item">4</div>
+      <div class="grid-item">5</div>
+      <div class="grid-item">6</div>
     </div>
   </body>
 </html>
