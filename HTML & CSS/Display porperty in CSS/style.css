@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.box {
+  border: 3px solid blue;
+  display: inline-block; /* inline-block  create an inline element of te block like div is a block but inline-block create it to the inline ...
+     if we applay inline than p: and m: will be apply on 3 side not on the top of the side  also we cannot set the width */
+
+  /* display: inline;  */
+  padding: 55px;
+  margin: 35px;
+  box-sizing: border-box;
+}
+.box1 {
+  display: none;
+  /* if we set none then it remove the space and element also */
+
+  /* visibility: hidden; */
+  /* if we set hidden  then it only hide  the space and element also the space and element is remain in that place but user is not able to see it  */
+}
